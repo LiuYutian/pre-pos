@@ -11,6 +11,7 @@ function count_same_elements(collection) {
                         if(array[j].name === char) {
                                 array[j].summary = array[j].summary + summary;
                                 exist = true;
+                                break;
                         }
                 }
 
